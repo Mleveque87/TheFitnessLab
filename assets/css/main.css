@@ -1,0 +1,86 @@
+﻿body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+/*section login home*/
+#login {
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/homeTheFitLab.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/*CSS NAV BAR*/
+.navbar-nav .nav-item .nav-link{
+    padding: 1.1em 1em!important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/*navbar js*/
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: black;
+}
+
+/*CSS LOGIN BUTTON*/
+.login-button .btn{
+    background-color: black;
+    color: #009C03;
+    font-size: 20px;
+    width: 150px;
+    font-weight: 500;
+    margin-right: 10px;
+    border: 1px solid #009C03;
+    border-radius: 30px
+}
+.login-button .btn:hover{
+    background-color: #009C03;
+    color:black;
+}
+
+/*section information home*/
+#information{
+    background-color: white;
+    width: 100vw;
+
+}
+
+/*section carousel home*/
+#carousel{
+    background-color: black;
+}
+
+/*footer*/
+#footer{
+    background-color: black;
+}
+
+/*Bannière*/
+#banniereHeader{
+    background-color: black;
+}
+
+body .btn-primary{
+    background: black;
+    color: #009C03;
+}
+
+body .btn-primary:hover{
+    background: #009C03;
+    color: black;
+    font-size: 20px;
+}
+
+#navBarprofil{
+    background-color: black;
+}
+
